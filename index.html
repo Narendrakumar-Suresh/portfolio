@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Narendrakumar</title>
     <link rel="stylesheet" href="styles.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
     <header>
 
-        <nav>
+        <nav class="navbar fixed-top bg-body-tertiary" style="background-color: #212D40;">
             <div class="left">
                 Narendrakumar
             </div>
@@ -25,10 +28,11 @@
                     <li><a href="#about">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#blogs">Blogs</a></li>
-                    <li><a href="">Contact Me</a></li>
+                    <li><a href="#social">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
+        
     </header>
     <main>
         <section class="first" id="about">
@@ -49,7 +53,7 @@
                         <a href="assets/resumee.pdf" download>Download Resume</a>
                     </button>
                 </div>
-                
+
 
 
             </div>
@@ -59,90 +63,125 @@
         </section>
 
         <section class="second" id="projects">
-                <h1>Some of my Projects</h1>
+            <h1><span id="element">Some of my Projects</span></h1>
             <div class="cards">
-                
+
                 <br>
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h3 class="card-title">Simple Music player</h3>
+                        <div class="cont">
+                            <p class="card-text">Musicly is a simple music player website that has been built using
+                                HTML, CSS, Bootstrap,
+                                and JavaScript. The website has a selection of pre-loaded songs that can be played,
+                                paused,
+                                and resumed.</p>
+                            <a href="https://github.com/Narendrakumar-Suresh/Musicly" class="btn btn-primary">Go to
+                                Github</a>
+                        </div>
+
                     </div>
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h3 class="card-title">Face-recognition</h3>
+                        <div class="cont">
+                            <p class="card-text">I had developed a project that utilizes facial recognition to take
+                                attendance. The project
+                                was built using Python and OpenCV. The program is able to identify students' faces and
+                                record their attendance. </p>
+                            <a href="https://github.com/Narendrakumar-Suresh/Attendance-using-face-recoginition"
+                                class="btn btn-primary">Go to Github</a>
+                        </div>
+
+
                     </div>
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h3 class="card-title">HOTS</h3>
+                        <div class="cont">
+                            <p class="card-text">Classifies HOTS questions</p>
+                            <a href="https://github.com/Narendrakumar-Suresh/HOTS" class="btn btn-primary">Go to
+                                Github</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
-<!-- Third -->
+        <!-- Third -->
         <section class="third" id="blogs">
-            <h1>Some of my Blogs</h1>
-        <div class="cards">
-            
-            <br>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up
-                        the bulk of the card's content.</p>
-                    <a href="#" target="_blank" btn btn-primary">Go somewhere</a>
+            <h1><span id="element">Some of my Blogs</span></h1>
+            <div class="cards">
+
+                <br>
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h3 class="card-title">End of X86?</h3>
+                        <br>
+                        <div class="cont">
+                            <p class="card-text">For the past three years apple have been using their own SoC for their
+                                Macs, called The M series. The Apple Silicon started to roll out from the year 2020....
+                            </p>
+                        </div>
+                        <a href="https://techyxtalks.blogspot.com/2023/11/end-of-x86.html" target="_blank"
+                            class="btn-primary">Read more</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Google redefining photography?</h3>
+
+                        <div class="cont">
+                            <p class="card-text">We know smartphone companies, always pushing their limits to make their
+                                mobiles better than their previous model. In terms of their hardware as well as
+                                software...</p>
+                        </div>
+                        <a href="https://techyxtalks.blogspot.com/2023/10/is-google-redifining-photography.html"
+                            class="btn btn-primary" target="_blank">Read more</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Project IDX</h3>
+                        <div class="cont">
+                            <p class="card-text">Project IDX is a brand-new development environment from Google, which
+                                is a browser-based development tool. Is it good? Or is it bad? Is it useful? Is it
+                                powerful?...</p>
+                        </div>
+                        <a href="https://techyxtalks.blogspot.com/2023/09/project-idx-future-of-web-and-app.html"
+                            class="btn btn-primary" target="_blank">Read more</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up
-                        the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+        <!-- fourth -->
 
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up
-                        the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="fourth">
-        <div class="social">
-            <h4>Contact</h4>
-                  <a href="https://www.linkedin.com/in/narendrakumar-suresh-b0a2b4210/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                  </svg></a>
+        <section class="fourth" id="social">
+            <div class="social">
+                <h4>Contact</h4>
+                <a href="https://www.linkedin.com/in/narendrakumar-suresh-b0a2b4210/" target="_blank"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg></a>
 
-                  <a href="mailto:narendrkumarsuresh@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
-                    <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765zM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516M0 13.373l5.693-3.163L0 6.873z"/>
-                  </svg></a>
+                <a href="mailto:narendrkumarsuresh@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765zM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516M0 13.373l5.693-3.163L0 6.873z" />
+                    </svg></a>
             </div>
-    </section>
+        </section>
     </main>
 
 
