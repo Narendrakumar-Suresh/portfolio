@@ -4,6 +4,10 @@
   font-family: "Popins", sans-serif;
 }
 
+*::webkit-scrollbar{
+  display:none;
+}
+
 body {
   background-color: #11151c;
   color: white;
