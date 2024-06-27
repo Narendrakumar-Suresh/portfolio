@@ -14,7 +14,7 @@
 }
 
 .first{
-  height: 600px;
+  height: 630px;
   /* background-color: aqua; */
 }
 
@@ -34,13 +34,17 @@
   margin: 25px;
   color: white;
   font-size: 20px;
-  border: 1.5px solid white;
   border-radius: 50px;
 }
 
 .btn a{
   text-decoration: none;
   color: white;
+}
+
+svg{
+  height: 15px;
+  width: 15px;
 }
 
 
@@ -58,7 +62,7 @@
 }
 
 .third{
-  height: 600px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,8 +80,9 @@
 
 .fourth{
   background-color: white;
-  color: black;
-  height: 200px;
+  background-image: linear-gradient(to bottom right,#000000,#4D4855);
+  color: white;
+  height: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,11 +101,13 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 35px;
+  background-color: transparent;
 }
 
 .fourth .cont svg{
   height: 30px;
   width: 30px;
+  background-color: transparent;
 }
 .third h1{
   display: flex;

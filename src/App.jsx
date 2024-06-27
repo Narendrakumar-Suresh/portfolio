@@ -160,7 +160,7 @@ function App() {
               </svg>
             </a>
 
-            <a href="https://www.linkedin.com/in/narendrakumar-suresh-b0a2b4210/">
+            <a href="https://www.linkedin.com/in/narendrakumar-suresh-b0a2b4210/" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
