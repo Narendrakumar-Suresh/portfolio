@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./About.css";
+import Myimg from "../assets/mine.jpg"
 function About() {
   return (
     <>
@@ -23,7 +24,7 @@ function About() {
         </button>
         <div className="imag">
           <h1>Narendrakumar S</h1>
-          <img src="src\assets\mine.jpg" alt="hello there" />
+          <img src={Myimg} alt="hello there" />
         </div>
         <div className="head">
           <h2>About Me</h2>
