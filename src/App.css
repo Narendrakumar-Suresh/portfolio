@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.first{
+  height: 600px;
+  /* background-color: aqua; */
+}
+
+.first .hi{
+  font-size: 47px;
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 600px; */
+}
+
+.btn{
+  margin: 25px;
+  color: white;
+  font-size: 20px;
+  border: 1.5px solid white;
+  border-radius: 50px;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.second h1{
+  display: flex;
+  flex-direction: row;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.second .rows{
+  display: flex;
+  flex-direction: row
+}
+
+.third{
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.third h1{
+  display: flex;
+  flex-direction: row;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.fourth{
+  background-color: white;
+  color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourth h1{
+  background-color: transparent;
+}
+
+.fourth .cont{
+  width: 170px;
+  height: 50px;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 35px;
+}
+
+.fourth .cont svg{
+  height: 30px;
+  width: 30px;
+}
+.third h1{
+  display: flex;
+  flex-direction: row;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.third .nich{
+  margin: 20px;
+}
+
+.links .link{
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style:normal;
+  color: white;
+}
+
+.links .link:hover{
+  font-size: 42px;
+  transition: all 0.75s ease;
+}
