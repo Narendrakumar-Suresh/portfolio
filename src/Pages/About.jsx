@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./About.css";
 import Myimg from "../assets/mine.jpg"
+import Resum from "../assets/Resume2024.pdf"
 function About() {
   return (
     <>
@@ -30,7 +31,7 @@ function About() {
           <h2>About Me</h2>
           <button type="button" className="resume">
             <a
-              href="src/assets/Resume2024.pdf"
+              href={Resum}
               rel="noreferrer"
               target="_blank"
             >
