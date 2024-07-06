@@ -1,6 +1,6 @@
 import "./App.css";
 import Card from "./Components/Card";
-// import { motion, useScroll } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 import { Link } from "react-router-dom";
 import Niche from "./Components/Niche";
 import ytImage from "./assets/yt_.png";
@@ -29,6 +29,8 @@ function App() {
     "https://github.com/Narendrakumar-Suresh/HOTS",
   ];
 
+  const { scrollYProgress } = useScroll();
+
   useEffect(() => {
     const fakeDataFetch = () => {
       setTimeout(() => {
@@ -42,7 +44,11 @@ function App() {
     <Loader />
   ) : (
     <>
-      {/* <motion.div style={{ scaleX: scrollYProgress }} /> */}
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      />
+
       <div className="home">
         <section className="first" id="first">
           <p className="links position-absolute top-0 start-0 p-4">
@@ -160,7 +166,10 @@ function App() {
               </svg>
             </a>
 
-            <a href="https://www.linkedin.com/in/narendrakumar-suresh-b0a2b4210/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/narendrakumar-suresh-b0a2b4210/"
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

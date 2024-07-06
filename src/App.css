@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
+* {
   background-color: black;
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -13,16 +13,16 @@
   display: none;
 }
 
-.first{
+.first {
   height: 630px;
   /* background-color: aqua; */
 }
 
-.first .hi{
+.first .hi {
   font-size: 47px;
 }
 
-.second{
+.second {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,25 +30,24 @@
   /* height: 600px; */
 }
 
-.btn{
+.btn {
   margin: 25px;
   color: white;
   font-size: 20px;
   border-radius: 50px;
 }
 
-.btn a{
+.btn a {
   text-decoration: none;
   color: white;
 }
 
-svg{
+svg {
   height: 15px;
   width: 15px;
 }
 
-
-.second h1{
+.second h1 {
   display: flex;
   flex-direction: row;
   font-size: 45px;
@@ -56,12 +55,12 @@ svg{
   align-items: center;
 }
 
-.second .rows{
+.second .rows {
   display: flex;
-  flex-direction: row
+  flex-direction: row;
 }
 
-.third{
+.third {
   height: 650px;
   display: flex;
   flex-direction: column;
@@ -69,7 +68,7 @@ svg{
   /* background-color: blue; */
 }
 
-.third h1{
+.third h1 {
   display: flex;
   flex-direction: row;
   font-size: 45px;
@@ -77,10 +76,9 @@ svg{
   align-items: center;
 }
 
-
-.fourth{
+.fourth {
   background-color: white;
-  background-image: linear-gradient(to bottom right,#000000,#4D4855);
+  background-image: linear-gradient(to bottom right, #000000, #4d4855);
   color: white;
   height: 160px;
   display: flex;
@@ -88,11 +86,11 @@ svg{
   align-items: center;
 }
 
-.fourth h1{
+.fourth h1 {
   background-color: transparent;
 }
 
-.fourth .cont{
+.fourth .cont {
   width: 170px;
   height: 50px;
   border-radius: 45px;
@@ -104,12 +102,12 @@ svg{
   background-color: transparent;
 }
 
-.fourth .cont svg{
+.fourth .cont svg {
   height: 30px;
   width: 30px;
   background-color: transparent;
 }
-.third h1{
+.third h1 {
   display: flex;
   flex-direction: row;
   font-size: 45px;
@@ -117,20 +115,31 @@ svg{
   align-items: center;
 }
 
-.third .nich{
+.third .nich {
   margin: 20px;
 }
 
-.links .link{
+.links .link {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 400;
-  font-style:normal;
+  font-style: normal;
   color: white;
 }
 
-.links .link:hover{
+.links .link:hover {
   font-size: 42px;
   transition: all 0.75s ease;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: white;
+  transform-origin: 0%;
+  z-index: 99;
+  width: 100%;
 }
