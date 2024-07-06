@@ -81,7 +81,6 @@ function App() {
             <Link className="link" to="/about">
               About me
             </Link>
-            {/* <h1>About me</h1> */}
           </p>
         </section>
 
@@ -108,22 +107,32 @@ function App() {
             />
           </div>
           <div className="btn">
-            <Link to="https://github.com/Narendrakumar-Suresh" target="_blank">
-              Click here to check more projects
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="15"
-                height="15"
-                fill="currentColor"
-                class="bi bi-arrow-up-right"
-                viewBox="0 0 16 16"
+            {/* this is where button comes */}
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="save-button"
+            >
+              <Link
+                to="https://github.com/Narendrakumar-Suresh"
+                target="_blank"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
-                />
-              </svg>
-            </Link>
+                Click here to check more projects
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  fill="currentColor"
+                  class="bi bi-arrow-up-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
+                  />
+                </svg>
+              </Link>
+            </motion.button>
           </div>
         </section>
         {/* This is my niche */}
