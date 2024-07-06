@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./About.css";
-import Myimg from "../assets/mine.jpg"
-import Resum from "../assets/Resume2024.pdf"
+import Myimg from "../assets/mine.jpg";
+import Resum from "../assets/Resume2024.pdf";
 function About() {
   return (
     <>
@@ -30,11 +30,7 @@ function About() {
         <div className="head">
           <h2>About Me</h2>
           <button type="button" className="resume">
-            <a
-              href={Resum}
-              rel="noreferrer"
-              target="_blank"
-            >
+            <a href={Resum} rel="noreferrer" target="_blank">
               📄Resume
             </a>
           </button>
@@ -58,8 +54,8 @@ function About() {
           Additionally, I enjoy sharing my insights and experiences through
           blogging, which has been a great way to connect with like-minded
           individuals. Recently, I have ventured into content creation,
-          leveraging platforms to share my journey in tech, sports, and personal
-          development, aiming to inspire and educate a broader audience.
+          leveraging platforms to share my journey in tech educate a broader
+          audience.
         </p>
       </div>
     </>
