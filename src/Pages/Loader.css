@@ -1,15 +1,15 @@
-.load{
-    display: flex;
-    height: 590px;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.load {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.load h1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.load h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
