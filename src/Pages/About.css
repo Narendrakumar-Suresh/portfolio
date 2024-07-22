@@ -1,91 +1,95 @@
-.about{
-    height: 800px;
-    width: 100%;
-    background-image: linear-gradient(to bottom left  ,black,rgb(66, 22, 137)) ;
+.about {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom left, black, rgb(66, 22, 137));
+  position: fixed;
 }
 
-.about h1, h2{
-    background-color: transparent;
-    padding: 30px;
+.about h1,
+h2 {
+  background-color: transparent;
+  padding: 30px;
 }
 
-svg{
-    margin: 20px;
-    background-color: transparent;
-    height:34px;
-    width: 34px;
+svg {
+  margin: 10px;
+  background-color: transparent;
+  height: 5vh;
+  width: 5vw;
 }
-.about button ,a{
-    text-decoration: none;
-    color: white;
-    background-color: transparent;
-    border: 3px white;
-    padding-top: 10px;
-}
-
-.head{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: transparent;
+.about button,
+a {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border: 3px white;
+  padding-top: 10px;
 }
 
-.head h2{
-    margin-right: 250px;
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
 }
 
-.head a{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 25px;
-    padding: 10px;
+.head h2 {
+  margin-right: 250px;
 }
 
-.head .resume{
-    margin-right: 400px;
+.head a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px;
 }
 
-.about p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 820px;
-    margin-left: 100px;
-    margin-bottom: 30px;
-    background-color: transparent;
-    font-weight: 500;
+.head .resume {
+  margin-right: 400px;
 }
 
-.imag{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: transparent;
-    width: 1000px;
+.about p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90vw;
+  margin-left: 50px;
+  margin-right: 40px;
+  background-color: transparent;
+  font-weight: 500;
+  overflow-x: hidden;
 }
 
-.imag img{
-    border-radius: 110px;
-    height:210px;
-    width: 210px;
-    /* margin-right: 300px; */
-    margin-left: 200px;
+.imag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 1000px;
 }
 
-.imag h1{
-    margin-left: 70px;
+.imag img {
+  border-radius: 110px;
+  height: 210px;
+  width: 210px;
+  /* margin-right: 300px; */
+  margin-left: 200px;
 }
 
-.boutme{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 450px;
+.imag h1 {
+  margin-left: 70px;
+}
+
+.boutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
 }
