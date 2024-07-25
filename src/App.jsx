@@ -52,13 +52,13 @@ function App() {
 
       <div className="home">
         <section className="first" id="first">
-          <p className="links position-absolute top-0 start-0 p-4">
+          <p className="links position-absolute top-0 start-0 p-2">
             <a className="link" href="#project">
               Project
             </a>
           </p>
 
-          <p className="links position-absolute top-0 end-0 p-4">
+          <p className="links position-absolute top-0 end-0 p-2">
             <a className="link" href="#niche">
               My Niche
             </a>
@@ -72,13 +72,13 @@ function App() {
               content and engaging user experiences.
             </p>
           </div>
-          <p className="links position-absolute bottom-0 start-0 p-4">
+          <p className="links position-absolute bottom-0 start-0 p-2">
             <a className="link" href="#contact">
               Contact
             </a>
           </p>
 
-          <p className="links position-absolute bottom-0 end-0 p-4">
+          <p className="links position-absolute bottom-0 end-0 p-2">
             <Link className="link" to="/about">
               About me
             </Link>

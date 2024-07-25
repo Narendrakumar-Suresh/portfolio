@@ -1,45 +1,43 @@
-.nic{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    margin: 30px;
-    font-size: 20px;
-    margin-bottom: 20px;
+.nic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 4rem;
+  font-size: 1.6 rem;
+  margin-bottom: 0.5rem;
 }
 
-.nic img{
-    height: 120px;
-    width: 120px;
-    border-radius: 25px;
+.nic img {
+  height: 20vh;
+  width: 10vw;
+  border-radius: 25px;
 }
 
-.nic .col{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* .nic .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+} */
+
+.nic .col a {
+  text-decoration: none;
+  color: white;
 }
 
-.nic .col a{
-    
-    text-decoration: none;
-    color: white;
+#coltext {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1.2rem;
 }
 
-#coltext{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 50px;
-}
-
-#colpic{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    margin-right: 100px;
+#colpic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
