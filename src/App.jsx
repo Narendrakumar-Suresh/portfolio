@@ -76,7 +76,7 @@ function App() {
             </a>
           </p>
           <div className="me position-absolute top-50 start-50 translate-middle">
-            <h1 className="hi">👋 Hi, I'm Narendrakumar.</h1>
+            <h1 className="hi">👋 Hi, I&aposm Narendrakumar.</h1>
             <p className="sam object-fit-fill">
               I am a disciplined front-end developer and content creator with a
               passion for machine learning and deep learning. As a Taekwondo
