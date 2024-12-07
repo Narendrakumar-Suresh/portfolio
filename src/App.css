@@ -150,3 +150,24 @@ svg {
   z-index: 99;
   width: 100vw;
 }
+
+@media (max-width: 767px) {
+  /* Mobile Styles */
+  /* Add more specific adjustments for mobile devices here */
+  body {
+    font-size: 1rem; /* Adjust base font size */
+  }
+  .first .hi {
+    font-size: 2rem;
+  }
+
+  .links .link {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+  /* ... and so on for other elements */
+}

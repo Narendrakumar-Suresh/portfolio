@@ -45,6 +45,11 @@ function App() {
     <Loader />
   ) : (
     <>
+      <meta name="description" content="Narendrakumar's portfolio" />
+      <meta
+        name="keywords"
+        content="Narendrakumar , Naren, Web developer,Joe Kraper, joe_kraper,joe kraper,developer, Machine learning, AI"
+      />
       <motion.div
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
