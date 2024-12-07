@@ -14,7 +14,6 @@ import hotsCl from "./assets/card_pics/HOTS.png";
 
 function App() {
   const [isLoading, setisLoading] = useState(true);
-  //const [isLoaded, setisLoaded] = useState(false);
 
   const cont = [
     "Automate attendance tracking through facial recognition for efficient and accurate monitoring.",
@@ -45,11 +44,19 @@ function App() {
     <Loader />
   ) : (
     <>
-      <meta name="description" content="Narendrakumar's portfolio" />
+      {/* SEO Optimized Meta Tags */}
+      <meta
+        name="description"
+        content="Explore Narendrakumar's portfolio - Frontend developer, machine learning enthusiast, and content creator. Discover projects and contact today!"
+      />
       <meta
         name="keywords"
-        content="Narendrakumar , Naren, Web developer,Joe Kraper, joe_kraper,joe kraper,developer, Machine learning, AI"
+        content="Narendrakumar, Frontend Developer, Machine Learning, Deep Learning, Portfolio, Joe Kraper, Web Development, Software Developer"
       />
+      <meta name="author" content="Narendrakumar Suresh" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charSet="UTF-8" />
+
       <motion.div
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
@@ -58,18 +65,18 @@ function App() {
       <div className="home">
         <section className="first" id="first">
           <p className="links position-absolute top-0 start-0 p-2">
-            <a className="link" href="#project">
-              Project
+            <a className="link" href="#project" title="Explore my projects">
+              Projects
             </a>
           </p>
 
           <p className="links position-absolute top-0 end-0 p-2">
-            <a className="link" href="#niche">
+            <a className="link" href="#niche" title="Learn more about my niche">
               My Niche
             </a>
           </p>
           <div className="me position-absolute top-50 start-50 translate-middle">
-            <h1 className="hi">👋 Hi,I'm Narendrakumar.</h1>
+            <h1 className="hi">👋 Hi, I'm Narendrakumar.</h1>
             <p className="sam object-fit-fill">
               I am a disciplined front-end developer and content creator with a
               passion for machine learning and deep learning. As a Taekwondo
@@ -78,20 +85,20 @@ function App() {
             </p>
           </div>
           <p className="links position-absolute bottom-0 start-0 p-2">
-            <a className="link" href="#contact">
+            <a className="link" href="#contact" title="Get in touch with me">
               Contact
             </a>
           </p>
 
           <p className="links position-absolute bottom-0 end-0 p-2">
-            <Link className="link" to="/about">
-              About me
+            <Link className="link" to="/about" title="Learn about me">
+              About Me
             </Link>
           </p>
         </section>
 
         <section className="second" id="project">
-          <h1>Project</h1>
+          <h1>Projects</h1>
           <div className="rows">
             <Card
               bg={faceRecog}
@@ -113,7 +120,6 @@ function App() {
             />
           </div>
           <div className="btn">
-            {/* this is where button comes */}
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
@@ -141,20 +147,20 @@ function App() {
             </motion.button>
           </div>
         </section>
-        {/* This is my niche */}
+
         <section className="third" id="niche">
           <h1>My Niche</h1>
           <div className="nich">
             <Niche
               image={ytImage}
-              text="Discover the latest softwares and technoligies, reviews, and tech tips on our YouTube channel. Stay updated and enhance your tech skills!"
-              link="https://youtube.com/@joe_kraper12?si=Lmf-lMp-qFlvspTm://www.youtube.com/watch?v=0sSYmRImgRY"
+              text="Discover the latest softwares and technologies, reviews, and tech tips on our YouTube channel. Stay updated and enhance your tech skills!"
+              link="https://youtube.com/@joe_kraper12"
             />
 
             <Niche
               image={instaImage}
               text="Follow us for the newest tech news, software highlights, and sneak peeks into upcoming trends. Join our tech community!"
-              link="https://www.instagram.com/joe_kraper?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              link="https://www.instagram.com/joe_kraper/"
             />
 
             <Niche
@@ -168,7 +174,7 @@ function App() {
         <section className="fourth" id="contact">
           <h1>Contact</h1>
           <div className="cont">
-            <a href="mailto:narendrkumarsuresh@gmail.com">
+            <a href="mailto:narendrkumarsuresh@gmail.com" title="Email me">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -184,6 +190,7 @@ function App() {
             <a
               href="https://www.linkedin.com/in/narendrakumar-suresh-b0a2b4210/"
               target="_blank"
+              title="LinkedIn profile"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
