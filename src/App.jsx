@@ -6,15 +6,12 @@ import Niche from "./Components/Niche";
 import ytImage from "./assets/yt_.png";
 import instaImage from "./assets/insta.png";
 import Bloggers from "./assets/bloggers.png";
-import { useEffect, useState } from "react";
-import Loader from "./Pages/Loader";
+//import { useEffect } from "react";
 import faceRecog from "./assets/card_pics/face_recog.jpg";
 import genderCl from "./assets/card_pics/gender_classifier.jpg";
 import hotsCl from "./assets/card_pics/HOTS.png";
 
 function App() {
-  const [isLoading, setisLoading] = useState(true);
-
   const cont = [
     "Automate attendance tracking through facial recognition for efficient and accurate monitoring.",
     "Classify gender using vocal characteristics to enhance personalization in applications.",
@@ -31,18 +28,16 @@ function App() {
 
   const { scrollYProgress } = useScroll();
 
-  useEffect(() => {
-    const fakeDataFetch = () => {
-      setTimeout(() => {
-        setisLoading(false);
-      }, 1500);
-    };
-    fakeDataFetch();
-  }, []);
+  // useEffect(() => {
+  //   const fakeDataFetch = () => {
+  //     setTimeout(() => {
+  //       setisLoading(false);
+  //     }, 1500);
+  //   };
+  //   fakeDataFetch();
+  // }, []);
 
-  return isLoading ? (
-    <Loader />
-  ) : (
+  return (
     <>
       {/* SEO Optimized Meta Tags */}
       <meta
